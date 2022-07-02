@@ -1,0 +1,32 @@
+.feature-list {
+  display: flex;
+  @extend %list;
+}
+
+.feature-list__thumb {
+  @include centeredFlex;
+
+  background-color: var(--team-button-bg-color);
+
+  border-radius: 4px;
+  margin-bottom: 30px;
+  height: 120px;
+}
+
+.feature-list__item + .feature-list__item {
+  margin-left: 30px;
+}
+
+.feature-list__title {
+  margin-bottom: 10px;
+
+  @include font(700, 14px, 1.4, null);
+  text-transform: uppercase;
+}
+
+.feature-list__desc {
+  color: var(--title-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+}

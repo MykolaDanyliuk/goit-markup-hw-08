@@ -1,0 +1,141 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: var(--footer-bg-color);
+}
+
+.footer__container {
+  display: flex;
+}
+
+.address__address-content {
+  margin-top: 20px;
+}
+
+.address-content__list {
+  @extend %list;
+}
+
+.address-content__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.address-content__link {
+  color: var(--primary-white-color);
+
+  @include font(400, 14px, 1.7, 0.03em);
+  font-style: normal;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.mail,
+.tel {
+  color: var(--contacts-footer-color);
+}
+
+.footer__join {
+  margin-left: 70px;
+}
+
+.join__title {
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  color: var(--primary-white-color);
+
+  @include font(700, 14px, 1.4, null);
+  text-transform: uppercase;
+}
+
+.join__list {
+  display: flex;
+  @extend %list;
+}
+
+.join__item {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.join__link {
+  @include centeredFlex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.join__icon {
+  fill: var(--primary-white-color);
+}
+
+.footer__subscribe {
+  margin-left: auto;
+}
+
+.subscribe__title {
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  @include font(700, 14px, 1.4, null);
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.subscribe__field {
+  display: flex;
+}
+
+.subscribe__input {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+
+  color: rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscribe__input::placeholder {
+  /* color: rgba(255, 255, 255, 0.3); */
+}
+
+.subscribe__btn {
+  @include centeredFlex;
+  margin-left: 12px;
+  // padding-left: 29px;
+
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    color: var(--primary-white-color);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.subscribe__icon {
+  fill: var(--primary-white-color);
+  margin-left: 10px;
+}

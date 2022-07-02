@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// .list {
+//   padding: 0;
+//   margin: 0;
+//   list-style: none;
+// }
+
+// .link {
+//   list-style: none;
+//   text-decoration: none;
+// }
+
+.pointer {
+  cursor: pointer;
+}
