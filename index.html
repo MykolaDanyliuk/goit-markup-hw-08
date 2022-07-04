@@ -29,11 +29,35 @@
     <!--Шапка сайта-->
     <header class="header">
       <div class="container header__container">
-        <nav class="nav">
-          <!--Навигация на другие страницы-->
-          <a href="./index.html" class="logo"
-            >Web<span class="logo__label">Studio</span></a
+        <a href="./index.html" class="logo header__logo"
+          >Web<span class="logo__label">Studio</span></a
+        >
+
+        <!-- <button
+          type="button"
+          class="menu-button"
+          aria-expanded="false"
+          aria-controls="menu-container"
+          data-menu-button
+        >
+          <svg
+            width="40"
+            height="40"
+            aria-label="Переключатель мобильного меню"
           >
+            <use
+              class="icon-cross"
+              href="./images/icons.svg#icon-cross-menu_24px"
+            ></use>
+            <use
+              class="icon-menu"
+              href="./images/icons.svg#icon-menu_24px"
+            ></use>
+          </svg>
+        </button> -->
+
+        <div class="menu-container"></div>
+        <nav class="nav">
           <ul class="menu">
             <li class="menu__item">
               <a href="" class="menu__link current">Студия</a>

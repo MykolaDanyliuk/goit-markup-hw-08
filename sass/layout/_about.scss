@@ -6,11 +6,18 @@
   margin-bottom: 50px;
   @include font(700, 36px, 1.17, null);
   text-align: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .pic-list {
   display: flex;
   @extend %list;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }
 
 .pic-list__item + .pic-list__item {

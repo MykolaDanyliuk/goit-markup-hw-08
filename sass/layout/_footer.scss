@@ -1,12 +1,26 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-
   background-color: var(--footer-bg-color);
 }
 
 .footer__container {
-  display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  @media screen and (min-width: 1200px) {
+    justify-content: space-between;
+  }
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+}
+
+.address {
+  margin-bottom: 60px;
 }
 
 .address__address-content {
@@ -14,11 +28,12 @@
 }
 
 .address-content__list {
+  // text-align: center;
   @extend %list;
 }
 
 .address-content__item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .address-content__link {
@@ -40,7 +55,8 @@
 }
 
 .footer__join {
-  margin-left: 70px;
+  // margin-left: 70px;
+  margin-bottom: 60px;
 }
 
 .join__title {
@@ -55,6 +71,7 @@
 
 .join__list {
   display: flex;
+  justify-content: center;
   @extend %list;
 }
 
@@ -84,9 +101,11 @@
   fill: var(--primary-white-color);
 }
 
-.footer__subscribe {
-  margin-left: auto;
-}
+// .footer__subscribe {
+//   @media screen and (min-width: 1200px) {
+//     margin-left: auto;
+//   }
+// }
 
 .subscribe__title {
   margin-top: 12px;
@@ -99,13 +118,20 @@
 }
 
 .subscribe__field {
-  display: flex;
+  // display: flex;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .subscribe__input {
-  width: 358px;
+  // width: 358px;
+  width: 100%;
   height: 50px;
   padding-left: 16px;
+  margin-bottom: 20px;
 
   color: rgba(255, 255, 255, 0.3);
   background-color: transparent;
@@ -113,6 +139,14 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
+  }
 }
 
 .subscribe__input::placeholder {
@@ -121,8 +155,10 @@
 
 .subscribe__btn {
   @include centeredFlex;
-  margin-left: 12px;
-  // padding-left: 29px;
+  margin: 0 auto;
+  padding: 10px;
+
+  // margin-left: 12px;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),

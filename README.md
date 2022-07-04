@@ -58,6 +58,13 @@
 
 ### План занятия Александра Репеты
 
+## Часть 1 - Меню
+
+[Формула расчёта ширины flex-элемента в сетке](https://gist.github.com/luxplanjay/b2cdf8f124fc2c896789a28b6ba16a87)
+.element {
+flex-basis: calc((100% - кол-во маржинов в строке \* значение маржина) / кол-во элементов в строке);
+}
+
 ## Часть 2 - Меню
 
 - Модальное окно на телефоне
@@ -92,3 +99,4 @@
 
 - [Srcset and sizes](https://ericportis.com/posts/2014/srcset-sizes/)
 - [Picture element](https://www.html5rocks.com/en/tutorials/responsive/picture-element/)
+- [Можно ли задавать разменрность шрифтам так, чтобы они сами подстраивались размером под нашу адаптивность](https://css-tricks.com/fun-viewport-units/)

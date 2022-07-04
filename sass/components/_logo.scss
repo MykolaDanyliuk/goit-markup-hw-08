@@ -1,4 +1,5 @@
 .logo {
+  display: inline-block;
   color: var(--accent-color);
 
   font-family: Raleway, sans-serif;
@@ -9,8 +10,13 @@
   }
 }
 
-.logo__label {
+.header__logo {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo__label {
   color: var(--primary-text-color);
   text-decoration: none;
 }
