@@ -82,6 +82,27 @@
   }
 }
 
+.contacts__item {
+  @media screen and (min-width: 768px) {
+    @include font(500, 12px, 1.16, 0.02em);
+    color: var(--title-text-color);
+  }
+}
+
+// .contacts__item {
+//   @media screen and (min-width: 768px) {
+//     @include font(500, 12px, 1.16, 0.02em);
+//     color: var(--title-text-color);
+//     &:not(:last-child) {
+//       margin-bottom: 10px;
+//     }
+//   }
+//   @media screen and (min-width: 1200px) {
+//     margin: 0;
+//     margin-right: 30px;
+//   }
+// }
+
 .contacts__link {
   display: flex;
   align-items: center;

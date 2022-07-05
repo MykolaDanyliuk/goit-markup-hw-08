@@ -1,26 +1,45 @@
 .logo {
   display: inline-block;
   color: var(--accent-color);
-
   font-family: Raleway, sans-serif;
-  @include font(700, 26px, 1.2, null);
   text-decoration: none;
+  @include font(700, 24px, 1.16, null);
   &:focus {
     color: var(--accent-color);
+  }
+  @media screen and (min-width: 1200px) {
+    @include font(700, 26px, 1.2, null);
   }
 }
 
 .header__logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    margin-right: 88px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
 }
 
 .logo__label {
   color: var(--primary-text-color);
   text-decoration: none;
+  @include font(700, 24px, 1.16, null);
+  @media screen and (min-width: 1200px) {
+    @include font(700, 26px, 1.2, null);
+  }
 }
 
 .logo__label--reverse {
   color: var(--primary-white-color);
+  @include font(700, 24px, 1.16, null);
+  @media screen and (min-width: 1200px) {
+    @include font(700, 26px, 1.2, null);
+  }
 }
