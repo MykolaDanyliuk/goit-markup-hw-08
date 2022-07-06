@@ -1,22 +1,21 @@
-.service {
-  padding-bottom: 94px;
-}
+// .service {
+//   padding-bottom: 94px;
+// }
 
 .service__title {
-  margin-bottom: 50px;
-  @include font(700, 36px, 1.17, null);
-  text-align: center;
-  @media screen and (max-width: 768px) {
-    display: none;
+  display: none;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    @include font(700, 36px, 1.17, null);
+    text-align: center;
   }
 }
 
 .service-list {
-  display: flex;
+  display: none;
   @extend %list;
-
-  @media screen and (max-width: 768px) {
-    display: none;
+  @media screen and (min-width: 1200px) {
+    display: flex;
   }
 }
 
