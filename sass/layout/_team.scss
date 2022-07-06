@@ -6,7 +6,7 @@
   margin-bottom: 50px;
   @include font(700, 28px, 1.17, null);
   text-align: center;
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     margin-bottom: 30px;
     @include font(700, 36px, 1.16, null);
   }
@@ -25,10 +25,10 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     width: calc((100% - 30px) / 2);
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     width: calc((100% - 90px) / 4);
   }
 }

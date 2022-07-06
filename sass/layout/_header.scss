@@ -9,7 +9,7 @@
 
 .nav {
   display: none;
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     display: flex;
     align-items: center;
   }
@@ -58,12 +58,12 @@
 .contacts {
   display: none;
   @extend %list;
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     display: flex;
     flex-direction: column;
     margin-left: 84px;
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -72,17 +72,17 @@
 }
 
 .contacts__item {
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     @include font(500, 12px, 1.16, 0.02em);
     color: var(--title-text-color);
   }
 }
 
 .contacts__item:not(:last-child) {
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     margin-bottom: 10px;
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     margin: 0;
     margin-right: 30px;
   }
@@ -101,7 +101,7 @@
   &:focus {
     color: var(--accent-color);
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     display: flex;
     align-items: center;
     padding-top: 32px;

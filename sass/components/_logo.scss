@@ -7,7 +7,7 @@
   &:focus {
     color: var(--accent-color);
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     @include font(700, 26px, 1.2, null);
   }
 }
@@ -15,12 +15,12 @@
 .header__logo {
   padding-top: 16px;
   padding-bottom: 16px;
-  @media screen and (min-width: 768px) {
+  @include tablet-768 {
     margin-right: 88px;
     padding-top: 26px;
     padding-bottom: 26px;
   }
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -31,7 +31,7 @@
   color: var(--primary-text-color);
   text-decoration: none;
   @include font(700, 24px, 1.16, null);
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     @include font(700, 26px, 1.2, null);
   }
 }
@@ -39,7 +39,7 @@
 .logo__label--reverse {
   color: var(--primary-white-color);
   @include font(700, 24px, 1.16, null);
-  @media screen and (min-width: 1200px) {
+  @include desctop-1200 {
     @include font(700, 26px, 1.2, null);
   }
 }
