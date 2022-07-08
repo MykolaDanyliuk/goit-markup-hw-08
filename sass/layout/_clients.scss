@@ -49,8 +49,8 @@
 .partners__icon {
   fill: var(--icon-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .patron__link:hover &,
-  .patron__link:focus & {
+  .partners__link:hover &,
+  .partners__link:focus & {
     fill: var(--accent-color);
   }
 }
