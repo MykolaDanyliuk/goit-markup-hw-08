@@ -20,6 +20,9 @@
 
 .address {
   margin-bottom: 60px;
+  @include desctop-1200 {
+    margin-bottom: 0;
+  }
 }
 
 .address__address-content {
@@ -54,8 +57,10 @@
 }
 
 .footer__join {
-  // margin-left: 70px;
   margin-bottom: 60px;
+  @include desctop-1200 {
+    margin-bottom: 0;
+  }
 }
 
 .join__title {
