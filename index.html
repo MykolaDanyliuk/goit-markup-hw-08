@@ -228,39 +228,49 @@
         </div>
       </section>
       <!--Чем мы занимаемся Service-->
-      <section class="service">
+      <section class="services">
         <div class="container">
-          <h2 class="service__title">Чем мы занимаемся</h2>
-          <ul class="service-list">
-            <li class="service-list__item">
-              <div class="service-list__img">
+          <h2 class="services__title">Чем мы занимаемся</h2>
+          <ul class="services-list">
+            <li class="services-list__item">
+              <div class="services-list__img">
+                <picture>
+                  <source srcset="
+                  ./images/services-img-1.jpg 1x, 
+                  ./images/services-img-1@2x.jpg 2x">
+                </picture>
                 <img
-                  class=""
-                  src="./images/transformer.jpg"
+                  src="./images/services-img-1.jpg"
                   alt="На фото ноутбук-трансформер и руки на клавиатуре"
                   width="370"
                 />
-                <p class="service-list__caption">Десктопные приложения</p>
+                <p class="services-list__caption">Десктопные приложения</p>
               </div>
             </li>
-            <li class="service-list__item">
-              <div class="service-list__img">
+            <li class="services-list__item">
+              <div class="services-list__img">
+                <source srcset="
+                ./images/services-img-2.jpg 1x, 
+                ./images/services-img-2@2x.jpg 2x">
                 <img
-                  src="./images/laptop.jpg"
+                  src="./images/services-img-2.jpg"
                   alt="На фото ноутбук и смартфон в руке"
                   width="370"
                 />
-                <p class="service-list__caption">Мобильные приложения</p>
+                <p class="services-list__caption">Мобильные приложения</p>
               </div>
             </li>
-            <li class="service-list__item">
-              <div class="service-list__img">
+            <li class="services-list__item">
+              <div class="services-list__img">
+                <source srcset="
+                ./images/services-img-3.jpg 1x, 
+                ./images/services-img-3@2x.jpg 2x">
                 <img
-                  src="./images/tablet.jpg"
+                  src="./images/services-img-3.jpg"
                   alt="На фото планшет в руке"
                   width="370"
                 />
-                <p class="service-list__caption">Дизайнерские решения</p>
+                <p class="services-list__caption">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
@@ -273,10 +283,24 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="leader">
             <li class="leader__item">
-              <img
-                src="./images/demianenko.jpg"
+              <picture>
+                <source srcset="
+                ./images/leader-img-1.jpg 1x, 
+                ./images/leader-img-1-2x.jpg 2x"
+                media="(min-width: 1200px"/>
+                <source srcset="
+                ./images/leader-img-1-tab.jpg 1x,
+                ./images/leader-img-1-tab-2x.jpg 2x"              
+                media="(min-width: 768px"/>
+                <source srcset="
+                ./images/leader-img-1-mob.jpg 1x, 
+                ./images/leader-img-1-mob-2x.jpg 2x"
+                media="(min-width: 480px"/>
+              </picture>
+              <img 
+                src="./images/leader-img-1-mob.jpg"
                 alt="На фото продукт дизайнер Игорь Демьяненко"
-                width=""
+                width="450"
               />
               <div class="leader__content">
                 <h3 class="leader__name">Игорь Демьяненко</h3>
@@ -314,10 +338,24 @@
               </ul>
             </li>
             <li class="leader__item">
+              <picture>
+                <source srcset="
+                ./images/leader-img-2.jpg 1x, 
+                ./images/leader-img-2-2x.jpg 2x"
+                media="(min-width: 1200px"/>
+                <source srcset="
+                ./images/leader-img-2-tab.jpg 1x, 
+                ./images/leader-img-2-tab-2x.jpg 2x"
+                media="(min-width: 768px"/>
+                <source srcset="
+                ./images/leader-img-2-mob.jpg 1x, 
+                ./images/leader-img-2-mob-2x.jpg 2x"
+                media="(min-width: 480px"/>
+              </picture>
               <img
-                src="./images/repina.jpg"
+                src="./images/leader-img-2-mob.jpg"
                 alt="На фото фронтенд разработчик Ольга Репина"
-                width=""
+                width="450"
               />
               <div class="leader__content">
                 <h3 class="leader__name">Ольга Репина</h3>
@@ -355,10 +393,24 @@
               </ul>
             </li>
             <li class="leader__item">
-              <img
-                src="./images/tarasov.jpg"
+              <picture>
+                <source srcset="
+                ./images/leader-img-3.jpg 1x, 
+                ./images/leader-img-3-2x.jpg 2x"
+                media="(min-width: 1200px"/>
+                <source srcset="
+                ./images/leader-img-3-tab.jpg 1x, 
+                ./images/leader-img-3-tab-2x.jpg 2x"
+                media="(min-width: 768px"/>
+                <source srcset="
+                ./images/leader-img-3-mob.jpg 1x, 
+                ./images/leader-img-3-mob-2x.jpg 2x"
+                media="(min-width: 480px"/>
+              </picture>
+              <img 
+                src="./images/leader-img-3-mob.jpg"
                 alt="На фото маркетолог Николай Тарасов"
-                width=""
+                width="450"
               />
               <div class="leader__content">
                 <h3 class="leader__name">Николай Тарасов</h3>
@@ -396,10 +448,24 @@
               </ul>
             </li>
             <li class="leader__item">
-              <img
-                src="./images/ermakov.jpg"
+              <picture>
+                <source srcset="
+                ./images/leader-img-4.jpg 1x, 
+                ./images/leader-img-4-2x.jpg 2x"
+                media="(min-width: 1200px"/>
+                <source srcset="
+                ./images/leader-img-4-tab.jpg 1x, 
+                ./images/leader-img-4-tab-2x.jpg 2x"
+                media="(min-width: 768px"/>
+                <source srcset="
+                ./images/leader-img-4-mob.jpg 1x, 
+                ./images/leader-img-4-mob-2x.jpg 2x"
+                media="(min-width: 480px"/>
+              </picture>
+              <img 
+                src="./images/leader-img-4-mob.jpg"
                 alt="На фото дизайнер интерфейса Михаил Ермаков"
-                width=""
+                width="450"
               />
               <div class="leader__content">
                 <h3 class="leader__name">Михаил Ермаков</h3>

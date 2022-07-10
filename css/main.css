@@ -57,7 +57,7 @@ img {
   cursor: pointer;
 }
 
-.grid, .filter, .join__list, .address-content__list, .partners, .socials, .leader, .service-list, .feature-list, .mob-socials__item, .mob-contacts, .mob-menu__list, .contacts, .menu {
+.grid, .filter, .join__list, .address-content__list, .partners, .socials, .leader, .services-list, .feature-list, .mob-socials__item, .mob-contacts, .mob-menu__list, .contacts, .menu {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -785,11 +785,11 @@ img {
   line-height: 1.71;
 }
 
-.service__title {
+.services__title {
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .service__title {
+  .services__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -798,24 +798,24 @@ img {
   }
 }
 
-.service-list {
+.services-list {
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .service-list {
+  .services-list {
     display: flex;
   }
 }
 
-.service-list__item + .service-list__item {
+.services-list__item + .services-list__item {
   margin-left: 30px;
 }
 
-.service-list__img {
+.services-list__img {
   position: relative;
 }
 
-.service-list__caption {
+.services-list__caption {
   position: absolute;
   bottom: 0;
   padding-top: 27px;
