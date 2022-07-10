@@ -205,7 +205,7 @@
   }
 }
 
-.checkbox__span {
+.checkbox-label__span {
   @include centeredFlex;
   margin-right: 8px;
   width: 16px;
@@ -214,11 +214,11 @@
   border-radius: 2px;
 }
 
-.checkbox__link {
+.checkbox-label__link {
   color: var(--accent-color);
   // margin-left: 4px;
 }
 
-.checkbox__icon {
+.checkbox-label__icon {
   fill: transparent;
 }

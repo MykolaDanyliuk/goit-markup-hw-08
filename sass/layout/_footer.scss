@@ -18,27 +18,26 @@
   }
 }
 
-.address {
+.address-wrap {
   margin-bottom: 60px;
   @include desctop-1200 {
     margin-bottom: 0;
   }
 }
 
-.address__address-content {
+.address-wrap__address {
   margin-top: 20px;
 }
 
-.address-content__list {
-  // text-align: center;
+.address__list {
   @extend %list;
 }
 
-.address-content__item:not(:last-child) {
+.address__item:not(:last-child) {
   margin-bottom: 8px;
 }
 
-.address-content__link {
+.address__link {
   color: var(--primary-white-color);
 
   @include font(400, 14px, 1.7, 0.03em);
