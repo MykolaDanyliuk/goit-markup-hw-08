@@ -370,7 +370,7 @@ img {
   fill: var(--accent-color);
 }
 
-.checkbox {
+.checkbox-label {
   display: flex;
   align-items: center;
   font-weight: 400;
@@ -379,15 +379,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
-.modal-form__field--check:checked + .checkbox .checkbox__span {
+.modal-form__field--check:checked + .checkbox-label .checkbox-label__span {
   background-color: var(--accent-color);
   border: none;
 }
-.modal-form__field--check:checked + .checkbox .checkbox__icon {
+.modal-form__field--check:checked + .checkbox-label .checkbox-label__icon {
   fill: var(--primary-white-color);
 }
 @media screen and (min-width: 1200px) {
-  .checkbox {
+  .checkbox-label {
     justify-content: center;
     font-weight: 400;
     font-size: 14px;
