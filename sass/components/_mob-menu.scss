@@ -1,8 +1,8 @@
 .menu-open-btn {
-  display: block;
   margin-left: auto;
-  background-color: transparent;
+  padding: 10px 0;
   border: none;
+  background-color: transparent;
   color: var(--primary-text-color);
   @include tablet-768 {
     display: none;
