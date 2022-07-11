@@ -375,8 +375,8 @@ img {
   align-items: center;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.02em;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 .modal-form__field--check:checked + .checkbox-label .checkbox-label__span {
