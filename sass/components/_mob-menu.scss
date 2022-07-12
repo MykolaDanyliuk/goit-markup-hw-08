@@ -25,7 +25,7 @@
   height: 100vh;
   z-index: 2;
   padding-top: 21px;
-  padding-left: 25px;
+  padding-left: 18px;
   padding-bottom: 48px;
   background-color: var(--primary-white-color);
   @include tablet-768 {
@@ -72,6 +72,7 @@
 }
 
 .mob-menu__link {
+  position: relative;
   @include font(500, 40px, 1.17, 0.02em);
   @extend %link;
   color: var(--primary-text-color);
@@ -80,6 +81,10 @@
   &:focus {
     color: var(--accent-color);
   }
+}
+
+.mob-menu__link.current {
+  color: var(--accent-color);
 }
 
 .mob-contacts__item:not(:last-child) {
@@ -99,7 +104,7 @@
 }
 
 .mob-tel {
-  @include font(500, 34px, 1.17, 0.02em);
+  @include font(500, 30px, 1.17, 0.02em);
   color: var(--accent-color);
 }
 
@@ -124,6 +129,6 @@
 
 .mob-socials__link {
   @extend %link;
-  @include font(500, 18px, 1.22, 0.02em);
+  @include font(500, 13px, 1.22, 0.02em);
   color: #2196f3;
 }
