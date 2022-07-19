@@ -1,4 +1,5 @@
 ![Web Studio Logo](https://github.com/MykolaDanyliuk/goit-markup-hw-08/blob/main/images/webstudio.svg)
+
 ![Gif](https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif)
 
 # My first project (Web Studio)
