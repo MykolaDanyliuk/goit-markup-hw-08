@@ -1,18 +1,13 @@
 ![Web Studio Logo](https://github.com/MykolaDanyliuk/goit-markup-hw-08/blob/main/images/webstudio.svg)
+![Gif](https://media.giphy.com/media/ZDTbix65Me1YDNLDF3/giphy.gif)
 
-<!-- ![](https://media.giphy.com/media/jIgOmyl9CwlG/giphy.gif)
-![](https://media.giphy.com/media/7b8jdNUoFBdcoILjjv/giphy.gif) -->
+# My first project (Web Studio)
 
-<!-- ![](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif) -->
+<p>My first student project <a href="https://mykoladanyliuk.github.io/goit-markup-hw-08/"><b>Web Studio</b></a> as part of the <a href= https://goit.ua/?lang=uk><b>Full Stack Developer course GO IT.</b></a>&nbsp;Final homework assignment №8. Used Technologies (HTML, CSS, JAWASCRIPT, SASS, BEM).</p>
 
-<!-- ![](https://media.giphy.com/media/cUAGuLiEcTBwRfkAQq/giphy.gif) -->
+![](https://media.giphy.com/media/cUAGuLiEcTBwRfkAQq/giphy.gif)
 
-<!-- ![](https://media.giphy.com/media/wIVCkv3bcsBwFyESSC/giphy.gif) -->
-
-# My first student project
-
-My first student project as part of the Full Stack Developer course. Final homework assignment №8.
-Used Technologies (HTML, CSS, JAWASCRIPT, SASS, BEM)
+<!-- ![](https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif) -->
 
 # goit-markup-hw-08 (домашнее задание)
 
@@ -29,13 +24,12 @@ Used Technologies (HTML, CSS, JAWASCRIPT, SASS, BEM)
 
 **`«A1»`** Используется методология `BEM`.
 
-**`«A2»`** Ипользуется препроцессов `SASS`.
+**`«A2»`** Ипользуется препроцессор `SASS`.
 
 **`«A3»`** В файлах `index.html` и `portfolio.html` подключен минифицированный
 файл стилей `main.min.css` из папки `css`.
 
-**`«A4»`** При просмотре страницы на любом устройстве шириной от `320px`, не
-появляется горизонтальная полоса прокрутки.
+**`«A4»`** При просмотре страницы на любом устройстве шириной от `320px`, не появляется горизонтальная полоса прокрутки.
 
 **`«A5»`** Скрипт мобильного меню подключен в HTML отдельным файлом
 `mobile-menu.js`.
@@ -44,11 +38,10 @@ Used Technologies (HTML, CSS, JAWASCRIPT, SASS, BEM)
 
 **`«B1»`** У всех страниц в блоке `<head>` есть метатег `viewport`.
 
-**`«B2»`** Все фоновые и контентные растровые изображения - отзывчивые, и
-поддерживают экраны с плотностью `x1` и `x2`.
+**`«B2»`** Все фоновые и контентные растровые изображения - отзывчивые, и поддерживают экраны с плотностью `x1` и `x2`.
 
-<!-- **`«B3»`** Для отзывчивых контентных изображений использован элемент `<img>` с
-атрибутом `srcset` и дескриптором `x`. -->
+**`«B3»`** Для отзывчивых контентных изображений использован элемент `<img>` с
+атрибутом `srcset` и дескриптором `x`.
 
 **`«B3»`** Для отзывчивых фоновых изображений использованы медиа-фукцнии
 `min-device-pixel-ratio` и `min-resolution`.
@@ -106,8 +99,8 @@ flex-basis: calc((100% - кол-во маржинов в строке \* зна�
 - Элемент `<picture>`
   - Различные форматы изображений
   - Кадрирование
-    - https://www.html5rocks.com/en/tutorials/responsive/picture-element/resized-image@2X.png
-    - https://www.html5rocks.com/en/tutorials/responsive/picture-element/art-direction@2X.png
+    - [](https://www.html5rocks.com/en/tutorials/responsive/picture-element/resized-image@2X.png)
+    - [](https://www.html5rocks.com/en/tutorials/responsive/picture-element/art-direction@2X.png)
 
 ## Допмат
 
