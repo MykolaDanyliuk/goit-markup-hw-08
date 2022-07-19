@@ -1,3 +1,7 @@
+<p align="center"><img src="./webstudio.svg" width="320px" alt/></p>
+
+# My first student project (HTML, CSS) as part of the Full Stack Developer course. Final homework assignment №8.
+
 # goit-markup-hw-08
 
 # Домашнее задание
