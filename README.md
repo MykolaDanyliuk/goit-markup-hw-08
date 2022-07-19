@@ -1,5 +1,14 @@
 ![Web Studio Logo](https://github.com/MykolaDanyliuk/goit-markup-hw-08/blob/main/images/webstudio.svg)
 
+<!-- ![](https://media.giphy.com/media/jIgOmyl9CwlG/giphy.gif)
+![](https://media.giphy.com/media/7b8jdNUoFBdcoILjjv/giphy.gif) -->
+
+<!-- ![](https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif) -->
+
+<!-- ![](https://media.giphy.com/media/cUAGuLiEcTBwRfkAQq/giphy.gif) -->
+
+<!-- ![](https://media.giphy.com/media/wIVCkv3bcsBwFyESSC/giphy.gif) -->
+
 # My first student project
 
 My first student project as part of the Full Stack Developer course. Final homework assignment №8.
