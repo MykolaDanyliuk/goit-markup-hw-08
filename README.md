@@ -1,10 +1,11 @@
-<p align="center"><img src="./webstudio.svg" width="320px" alt/></p>
+![Web Studio Logo](https://github.com/MykolaDanyliuk/goit-markup-hw-08/blob/main/images/webstudio.svg)
 
-# My first student project (HTML, CSS) as part of the Full Stack Developer course. Final homework assignment №8.
+# My first student project
 
-# goit-markup-hw-08
+My first student project as part of the Full Stack Developer course. Final homework assignment №8.
+Used Technologies (HTML, CSS, JAWASCRIPT, SASS, BEM)
 
-# Домашнее задание
+# goit-markup-hw-08 (домашнее задание)
 
 - Создай репозиторий `goit-markup-hw-08`.
 - Склонируй созданный репозиторий и скопируй в него файлы предыдущей работы.
